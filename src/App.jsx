@@ -357,11 +357,18 @@ function App() {
         </div>
         <footer className="footer p-10 bg-base-200 text-base-content">
             <div>
+                <a href="https://github.com/zcyc/COVID-19-medication-guidelines/issues">纠正错误</a>
+            </div>
+            <div>
                 <p>
-                    ♥️ 带好口罩，做健康的第一责任人！
+                    ♥️ 带好口罩，当好个人健康第一责任人
                 </p>
             </div>
-            {/* made by https://github.com/zcyc */ }
+            <div>
+                <p>
+                    <a href="https://github.com/zcyc">Charles</a> & <a href="https://github.com/jerryshell">Jerry</a>
+                </p>
+            </div>
         </footer>
     </div>)
 }
