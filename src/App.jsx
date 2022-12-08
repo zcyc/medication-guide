@@ -23,7 +23,7 @@ function App() {
           ></path>
         </svg>
         <div>
-          <h3 className="font-bold">症状持续超过7天或药物连续使用三天不见效请及时就医！</h3>
+          <h3 className="font-bold">症状持续七天或连续用药三天没好转请及时就医！</h3>
         </div>
       </div>
       <div className="flex-none">
