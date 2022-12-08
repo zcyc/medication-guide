@@ -148,9 +148,9 @@ function App() {
                 <tr>
                     <th className="border border-slate-600 text-center">😷 症状</th>
                     <th className="border border-slate-600 text-center">💊 常用药物</th>
-                    <th className="border border-slate-600 text-center">🕗 普通成人</th>
-                    <th className="border border-slate-600 text-center">🕗 孕妇**</th>
-                    <th className="border border-slate-600 text-center">🕗 哺乳期**</th>
+                    <th className="border border-slate-600 text-center">🧑 普通成人</th>
+                    <th className="border border-slate-600 text-center">🤰 孕妇**</th>
+                    <th className="border border-slate-600 text-center">👩‍🍼 哺乳期**</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -254,9 +254,9 @@ function App() {
                 <tr>
                     <th className="border border-slate-600 text-center">😷 症状</th>
                     <th className="border border-slate-600 text-center">💊 常用药物</th>
-                    <th className="border border-slate-600 text-center">🕗 高血压</th>
-                    <th className="border border-slate-600 text-center">🕗 糖尿病</th>
-                    <th className="border border-slate-600 text-center">🕗 肾功能不全</th>
+                    <th className="border border-slate-600 text-center">🩸 高血压</th>
+                    <th className="border border-slate-600 text-center">🍬 糖尿病</th>
+                    <th className="border border-slate-600 text-center">🫀 肾功能不全</th>
                 </tr>
                 </thead>
                 <tbody>
