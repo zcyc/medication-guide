@@ -155,7 +155,7 @@ function App() {
                 <tbody>
                 <tr>
                     <th className="border border-slate-600 text-center" rowSpan={2}>发烧</th>
-                    <td className="border border-slate-600 text-center">对乙酰氨基酚</td>
+                    <td className="border border-slate-600 text-center">扑热息痛</td>
                     <td className="border border-slate-600 text-center" rowSpan={2}>🏥 及时就医</td>
                     <td className="border border-slate-600 text-center">✅ 可以使用</td>
                     <td className="border border-slate-600 text-center" rowSpan={4} colSpan={2}>✅ 可以使用</td>
@@ -171,7 +171,7 @@ function App() {
                 </tr>
                 <tr>
                     <th className="border border-slate-600 text-center" rowSpan={2}>喉咙痛</th>
-                    <td className="border border-slate-600 text-center">对乙酰氨基酚</td>
+                    <td className="border border-slate-600 text-center">扑热息痛</td>
                     <td className="border border-slate-600 text-center" rowSpan={2}
                         colSpan={2}>孩子可能还不会表达喉咙痛
                     </td>
@@ -197,7 +197,7 @@ function App() {
                 </tr>
                 <tr>
                     <th className="border border-slate-600 text-center" rowSpan={4}>流鼻涕*</th>
-                    <td className="border border-slate-600 text-center">氯苯那敏</td>
+                    <td className="border border-slate-600 text-center">扑尔敏</td>
                     {/*<td className="border border-slate-600 text-center">❌ 不推荐</td>*/}
                     {/*<td className="border border-slate-600 text-center">❌ 不推荐</td>*/}
                     {/*<td className="border border-slate-600 text-center">❌ 不推荐</td>*/}
@@ -275,7 +275,7 @@ function App() {
                 <tbody>
                 <tr>
                     <th className="border border-slate-600 text-center" rowSpan={2}>发烧</th>
-                    <td className="border border-slate-600 text-center">对乙酰氨基酚</td>
+                    <td className="border border-slate-600 text-center">扑热息痛</td>
                     <td className="border border-slate-600 text-center" rowSpan={4}>✅ 可以使用</td>
                     <td className="border border-slate-600 text-center">✅ 可以使用</td>
                     <td className="border border-slate-600 text-center" rowSpan={4}>✅ 可以使用</td>
@@ -289,7 +289,7 @@ function App() {
                 </tr>
                 <tr>
                     <th className="border border-slate-600 text-center" rowSpan={2}>喉咙痛</th>
-                    <td className="border border-slate-600 text-center">对乙酰氨基酚</td>
+                    <td className="border border-slate-600 text-center">扑热息痛</td>
                     {/*<td className="border border-slate-600 text-center">✅ 可以使用</td>*/}
                     <td className="border border-slate-600 text-center">✅ 可以使用</td>
                     {/*<td className="border border-slate-600 text-center">✅ 可以使用</td>*/}
@@ -310,7 +310,7 @@ function App() {
                 </tr>
                 <tr>
                     <th className="border border-slate-600 text-center" rowSpan={4}>流鼻涕*</th>
-                    <td className="border border-slate-600 text-center">氯苯那敏</td>
+                    <td className="border border-slate-600 text-center">扑尔敏</td>
                     <td className="border border-slate-600 text-center" rowSpan={2}>✅ 可以使用</td>
                     {/*<td className="border border-slate-600 text-center">🥼 慎用，须咨询医生</td>*/}
                     <td className="border border-slate-600 text-center">❌ 不推荐</td>
@@ -381,7 +381,7 @@ function App() {
                 <tbody>
                 <tr>
                     <th className="border border-slate-600 text-center" rowSpan={2}>发烧</th>
-                    <td className="border border-slate-600 text-center">对乙酰氨基酚</td>
+                    <td className="border border-slate-600 text-center">扑热息痛</td>
                     <td className="border border-slate-600 text-center">✅ 可以使用</td>
                     <td className="border border-slate-600 text-center" rowSpan={4}>✅ 可以使用</td>
                     <td className="border border-slate-600 text-center" rowSpan={12}>🥼 慎用，须咨询医生</td>
@@ -395,7 +395,7 @@ function App() {
                 </tr>
                 <tr>
                     <th className="border border-slate-600 text-center" rowSpan={2}>喉咙痛</th>
-                    <td className="border border-slate-600 text-center">对乙酰氨基酚</td>
+                    <td className="border border-slate-600 text-center">扑热息痛</td>
                     <td className="border border-slate-600 text-center">✅ 可以使用</td>
                     {/*<td className="border border-slate-600 text-center">✅ 可以使用</td>*/}
                     {/*<td className="border border-slate-600 text-center">🥼 慎用，须咨询医生</td>*/}
@@ -417,7 +417,7 @@ function App() {
                 </tr>
                 <tr>
                     <th className="border border-slate-600 text-center" rowSpan={4}>流鼻涕*</th>
-                    <td className="border border-slate-600 text-center">氯苯那敏</td>
+                    <td className="border border-slate-600 text-center">扑尔敏</td>
                     <td className="border border-slate-600 text-center" rowSpan={2}>🥼 慎用，须咨询医生</td>
                     <td className="border border-slate-600 text-center" rowSpan={4}>✅ 可以使用</td>
                     {/*<td className="border border-slate-600 text-center">🥼 慎用，须咨询医生</td>*/}
