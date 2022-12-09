@@ -4,36 +4,36 @@ function App() {
     return (<div className="App">
         <div className="navbar bg-base-100">
             <a className="btn btn-ghost normal-case text-xl">
-                🦠 新冠肺炎轻症症状缓解药物参考
+                🦠 新型冠状病毒病症状 & 💊 症状缓解药物
             </a>
         </div>
         <div className="alert alert-error shadow-lg">
             <div>
                 <span>
-                    <h3 className="font-bold">以下情况请及时就医：</h3>
-                    <div>1.持续发热超过 24 小时/体温反复超过 39°C/症状好转后又出现发热</div>
-                    <div>2.头痛、耳痛、鼻窦疼痛、严重的喉咙痛</div>
-                    <div>3.喘息、呼吸急促/困难、口唇发紫</div>
-                    <div>4.鼻塞/流涕/咳嗽超过 10 天且没有改善</div>
-                    <div>5.连续用药 3 天没有改善</div>
-                    <div>6.症状持续 7 天没有改善</div>
+                    <h3 className="font-bold">⚠ 以下情况请及时就医：</h3>
+                    <div>1.持续发热超过 24 小时/体温反复超过 39°C/症状好转后又出现发热；</div>
+                    <div>2.头痛、耳痛、鼻窦疼痛、严重的喉咙痛；</div>
+                    <div>3.喘息、呼吸急促/困难、口唇发紫；</div>
+                    <div>4.鼻塞/流涕/咳嗽超过 10 天且没有改善；</div>
+                    <div>5.连续用药 3 天没有改善；</div>
+                    <div>6.症状持续 7 天没有改善；</div>
                 </span>
             </div>
         </div>
-        <div className="text-2xl text-center m-4">轻症症状</div>
+        <div className="text-2xl text-center m-4">症状</div>
         <div className="overflow-x-auto m-2">
             <table className="table w-full border-collapse border border-slate-500">
                 <thead>
                 <tr>
                     <th className="border border-slate-600 text-center">🕗 时间</th>
                     <th className="border border-slate-600 text-center">😷 发烧</th>
-                    <th className="border border-slate-600 text-center">😷 上呼吸道</th>
-                    <th className="border border-slate-600 text-center">😷 身体</th>
-                    <th className="border border-slate-600 text-center">😷 精神 & 睡眠</th>
-                    <th className="border border-slate-600 text-center">😷 肠胃</th>
-                    <th className="border border-slate-600 text-center">😷 鼻涕</th>
+                    <th className="border border-slate-600 text-center">😷 上呼吸道疼痛</th>
+                    <th className="border border-slate-600 text-center">😷 身体酸疼</th>
+                    <th className="border border-slate-600 text-center">😷 精神不振 & 失眠</th>
+                    <th className="border border-slate-600 text-center">😷 肠胃不适</th>
+                    <th className="border border-slate-600 text-center">😷 流鼻涕</th>
                     <th className="border border-slate-600 text-center">😷 咳嗽</th>
-                    <th className="border border-slate-600 text-center">😷 嗅觉 & 味觉</th>
+                    <th className="border border-slate-600 text-center">😷 嗅觉丧失 & 味觉丧失</th>
                     <th className="border border-slate-600 text-center">🧪 核酸</th>
                 </tr>
                 </thead>
@@ -77,7 +77,7 @@ function App() {
                 <tr>
                     <th className="border border-slate-600 text-center">第 4 天</th>
                     <td className="border border-slate-600 text-center">体温反复，夜间体温降到37度以下</td>
-                    <td className="border border-slate-600 text-center">症状消失</td>
+                    <td className="border border-slate-600 text-center">疼痛症状消失</td>
                     <td className="border border-slate-600 text-center">疼痛开始好转</td>
                     <td className="border border-slate-600 text-center">精神开始恢复</td>
                     <td className="border border-slate-600 text-center">肠胃不适，下腹微微作痛</td>
@@ -478,12 +478,12 @@ function App() {
             </div>
             <div>
                 <p>
-                    ♥️ 带好口罩，当好个人健康第一责任人
+                    ♥️ 带口罩，勤洗手，常通风，少聚集
                 </p>
             </div>
             <div>
                 <p>
-                    <a href="https://github.com/zcyc">Charles</a> & <a href="https://github.com/jerryshell">Jerry</a>
+                    © <a href="https://github.com/zcyc">Charles</a> & <a href="https://github.com/jerryshell">Jerry</a>
                 </p>
             </div>
         </footer>
