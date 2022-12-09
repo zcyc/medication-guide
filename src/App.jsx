@@ -13,7 +13,7 @@ function App() {
                 <span>
                     <h3 className="font-bold">⚠ 以下情况请及时就医：</h3>
                     <div>1.持续发热超过 24 小时/体温反复超过 39°C/症状好转后又出现发热；</div>
-                    <div>2.头痛、耳痛、鼻窦疼痛、严重的喉咙痛；</div>
+                    <div>2.头痛、耳痛、鼻窦痛痛、严重的喉咙痛；</div>
                     <div>3.喘息、呼吸急促/困难、口唇发紫；</div>
                     <div>4.鼻塞/流涕/咳嗽超过 10 天且没有改善；</div>
                     <div>5.连续用药 3 天没有改善；</div>
@@ -29,8 +29,8 @@ function App() {
                 <tr>
                     <th className="border border-slate-600 text-center">🕗 时间</th>
                     <th className="border border-slate-600 text-center">😷 发烧</th>
-                    <th className="border border-slate-600 text-center">😷 上呼吸道疼痛</th>
-                    <th className="border border-slate-600 text-center">😷 身体酸疼</th>
+                    <th className="border border-slate-600 text-center">😷 上呼吸道痛</th>
+                    <th className="border border-slate-600 text-center">😷 身体酸痛</th>
                     <th className="border border-slate-600 text-center">😷 精神不振 & 失眠</th>
                     <th className="border border-slate-600 text-center">😷 肠胃不适</th>
                     <th className="border border-slate-600 text-center">😷 流鼻涕</th>
@@ -55,8 +55,8 @@ function App() {
                 <tr>
                     <th className="border border-slate-600 text-center">第 2 天</th>
                     <td className="border border-slate-600 text-center">开始发烧37度多，直至38.5度以上</td>
-                    <td className="border border-slate-600 text-center">上呼吸道疼痛，有种要渴死的感觉</td>
-                    <td className="border border-slate-600 text-center">高烧导致浑身酸疼</td>
+                    <td className="border border-slate-600 text-center">上呼吸道痛，口渴</td>
+                    <td className="border border-slate-600 text-center">高烧导致浑身酸痛</td>
                     <td className="border border-slate-600 text-center">失眠，精神不振</td>
                     <td className="border border-slate-600 text-center"></td>
                     <td className="border border-slate-600 text-center"></td>
@@ -67,7 +67,7 @@ function App() {
                 <tr>
                     <th className="border border-slate-600 text-center">第 3 天</th>
                     <td className="border border-slate-600 text-center">体温反复，夜间体温降到38度以下</td>
-                    <td className="border border-slate-600 text-center">上呼吸道疼痛</td>
+                    <td className="border border-slate-600 text-center">上呼吸道痛</td>
                     <td className="border border-slate-600 text-center">浑身难受</td>
                     <td className="border border-slate-600 text-center">半醒半睡，精神疲惫</td>
                     <td className="border border-slate-600 text-center">肠胃不适，下腹隐隐作痛</td>
@@ -79,12 +79,12 @@ function App() {
                 <tr>
                     <th className="border border-slate-600 text-center">第 4 天</th>
                     <td className="border border-slate-600 text-center">体温反复，夜间体温降到37度以下</td>
-                    <td className="border border-slate-600 text-center">疼痛症状消失</td>
-                    <td className="border border-slate-600 text-center">疼痛开始好转</td>
-                    <td className="border border-slate-600 text-center">精神开始恢复</td>
+                    <td className="border border-slate-600 text-center">症状消失</td>
+                    <td className="border border-slate-600 text-center">开始好转</td>
+                    <td className="border border-slate-600 text-center">开始恢复</td>
                     <td className="border border-slate-600 text-center">肠胃不适，下腹微微作痛</td>
                     <td className="border border-slate-600 text-center">开始流鼻涕</td>
-                    <td className="border border-slate-600 text-center">干咳，咳嗽时胸腔跟着疼</td>
+                    <td className="border border-slate-600 text-center">干咳，咳嗽时胸腔跟着痛</td>
                     {/*<td className="border border-slate-600 text-center">味觉减退</td>*/ }
                     {/*<td className="border border-slate-600 text-center">阳性</td>*/ }
                 </tr>
@@ -92,10 +92,10 @@ function App() {
                     <th className="border border-slate-600 text-center">第 5 天</th>
                     <td className="border border-slate-600 text-center">体温正常</td>
                     <td className="border border-slate-600 text-center"></td>
-                    <td className="border border-slate-600 text-center">疼痛继续好转</td>
-                    <td className="border border-slate-600 text-center">精神继续恢复</td>
-                    <td className="border border-slate-600 text-center">腹部疼痛消失</td>
-                    <td className="border border-slate-600 text-center">流鼻涕症状继续</td>
+                    <td className="border border-slate-600 text-center">继续好转</td>
+                    <td className="border border-slate-600 text-center">继续恢复</td>
+                    <td className="border border-slate-600 text-center">症状消失</td>
+                    <td className="border border-slate-600 text-center">症状继续</td>
                     <td className="border border-slate-600 text-center">干咳，声音嘶哑，轻微头痛</td>
                     {/*<td className="border border-slate-600 text-center">味觉减退</td>*/ }
                     {/*<td className="border border-slate-600 text-center">阳性</td>*/ }
@@ -104,12 +104,12 @@ function App() {
                     <th className="border border-slate-600 text-center">第 6 天</th>
                     <td className="border border-slate-600 text-center"></td>
                     <td className="border border-slate-600 text-center"></td>
-                    <td className="border border-slate-600 text-center">疼痛症状消失</td>
-                    <td className="border border-slate-600 text-center">精神完全恢复</td>
+                    <td className="border border-slate-600 text-center">症状消失</td>
+                    <td className="border border-slate-600 text-center">精神恢复</td>
                     <td className="border border-slate-600 text-center"></td>
-                    <td className="border border-slate-600 text-center">流鼻涕症状减轻</td>
+                    <td className="border border-slate-600 text-center">症状减轻</td>
                     <td className="border border-slate-600 text-center">干咳，声音嘶哑</td>
-                    <td className="border border-slate-600 text-center">味觉开始恢复</td>
+                    <td className="border border-slate-600 text-center">开始恢复</td>
                     <td className="border border-slate-600 text-center">弱阳</td>
                 </tr>
                 <tr>
@@ -119,7 +119,7 @@ function App() {
                     <td className="border border-slate-600 text-center"></td>
                     <td className="border border-slate-600 text-center"></td>
                     <td className="border border-slate-600 text-center"></td>
-                    <td className="border border-slate-600 text-center">流鼻涕症状继续减轻</td>
+                    <td className="border border-slate-600 text-center">继续减轻</td>
                     <td className="border border-slate-600 text-center">咳嗽好转</td>
                     <td className="border border-slate-600 text-center">味觉恢复</td>
                     <td className="border border-slate-600 text-center">阴性</td>
