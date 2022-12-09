@@ -7,8 +7,9 @@ function App() {
                 🦠 新型冠状病毒病症状 & 💊 症状缓解药物
             </a>
         </div>
-        <div className="alert alert-error shadow-lg">
-            <div>
+        <div className="m-2">
+            <div className="alert alert-error shadow-lg">
+                <div>
                 <span>
                     <h3 className="font-bold">⚠ 以下情况请及时就医：</h3>
                     <div>1.持续发热超过 24 小时/体温反复超过 39°C/症状好转后又出现发热；</div>
@@ -18,6 +19,7 @@ function App() {
                     <div>5.连续用药 3 天没有改善；</div>
                     <div>6.症状持续 7 天没有改善；</div>
                 </span>
+                </div>
             </div>
         </div>
         <div className="text-2xl text-center m-4">症状</div>
@@ -266,8 +268,8 @@ function App() {
                     <th className="border border-slate-600 text-center">😷 症状</th>
                     <th className="border border-slate-600 text-center">💊 常用药物</th>
                     <th className="border border-slate-600 text-center">🧑 普通成人</th>
-                    <th className="border border-slate-600 text-center">🤰 孕妇**</th>
-                    <th className="border border-slate-600 text-center">👩‍🍼 哺乳期**</th>
+                    <th className="border border-slate-600 text-center">🤰 孕妇*</th>
+                    <th className="border border-slate-600 text-center">👩‍🍼 哺乳期*</th>
                 </tr>
                 </thead>
                 <tbody>
