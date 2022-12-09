@@ -560,19 +560,17 @@ function App() {
                 </tbody>
             </table>
         </div>
-        <footer className="footer p-10 bg-base-200 text-base-content">
-            <div>
-                <a href="https://github.com/zcyc/COVID-19-medication-guidelines/issues">纠正错误</a>
+        <footer className="footer footer-center p-10 bg-base-200 text-base-content rounded">
+            <div className="grid grid-flow-col gap-4">
+                带口罩，勤洗手，常通风，少聚集
+            </div>
+            <div className="grid grid-flow-col gap-4">
+                <a className="link link-hover">😁 查看源码</a>
+                <a className="link link-hover">🤔 反馈错误</a>
             </div>
             <div>
-                <p>
-                    ♥️ 带口罩，勤洗手，常通风，少聚集
-                </p>
-            </div>
-            <div>
-                <p>
-                    © <a href="https://github.com/zcyc">Charles</a> & <a href="https://github.com/jerryshell">Jerry</a>
-                </p>
+                <p>Copyright © 2022 - All right reserved by <a href="https://github.com/zcyc">Charles</a> & <a
+                    href="https://github.com/jerryshell">Jerry</a></p>
             </div>
         </footer>
     </div>)
