@@ -3,9 +3,9 @@ import './App.css'
 function App() {
     return (<div className="App">
         <div className="navbar bg-base-100">
-            <a className="btn btn-ghost normal-case text-xl">
+            <h1 className="text-l">
                 🦠 新型冠状病毒病症状 & 💊 症状缓解药物
-            </a>
+            </h1>
         </div>
         <div className="m-2">
             <div className="alert alert-error shadow-lg">
