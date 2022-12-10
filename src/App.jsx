@@ -145,7 +145,7 @@ function App() {
                 <table className="table w-full table-compact border-separate border-spacing-0 border border-slate-500">
                     <thead>
                     <tr>
-                        <th className="border border-slate-600 text-center">💊 药名</th>
+                        <th className="border border-slate-600 text-center">💊 名称</th>
                         <th className="border border-slate-600 text-center">🪞 类型</th>
                         <th className="border border-slate-600 text-center">🛍 商品名</th>
                         <th className="border border-slate-600 text-center">® 品牌</th>
