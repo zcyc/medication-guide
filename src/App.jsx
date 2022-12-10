@@ -205,7 +205,7 @@ function App() {
                     <tr>
                         <th className="border border-slate-600 text-center">西替利嗪</th>
                         <th className="border border-slate-600 text-center">第二代抗组胺药</th>
-                        <td className="border border-slate-600 text-center">盐酸西替利嗪</td>
+                        <td className="border border-slate-600 text-center">盐酸西替利嗪片</td>
                         <td className="border border-slate-600 text-center">仙特明、西可韦</td>
                         <td className="border border-slate-600 text-center">Cetirizine</td>
                         <td className="border border-slate-600 text-center">去敏定、司特宁、仙特明、协帝</td>
