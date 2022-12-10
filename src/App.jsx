@@ -348,6 +348,9 @@ function App() {
                     </tbody>
                 </table>
             </div>
+            <div className="overflow-x-auto m-2">
+                <p>*鼻塞流鼻涕建议：低龄儿童使用生理盐水鼻喷剂/生理盐水滴鼻剂/吸鼻器；能配合的儿童使用洗鼻壶和洗鼻盐。</p>
+            </div>
             <div className="text-2xl text-center m-4">成人用药</div>
             <div className="overflow-x-auto m-2">
                 <table className="table w-full table-compact border-separate border-spacing-0 border border-slate-500">
@@ -356,8 +359,8 @@ function App() {
                         <th className="border border-slate-600 text-center">😷 症状</th>
                         <th className="border border-slate-600 text-center">💊 常用药物</th>
                         <th className="border border-slate-600 text-center">🧑 普通成人</th>
-                        <th className="border border-slate-600 text-center">🤰 孕妇*</th>
-                        <th className="border border-slate-600 text-center">👩‍🍼 哺乳期*</th>
+                        <th className="border border-slate-600 text-center">🤰 孕妇**</th>
+                        <th className="border border-slate-600 text-center">👩‍🍼 哺乳期**</th>
                     </tr>
                     </thead>
                     <tbody>
@@ -454,6 +457,10 @@ function App() {
                     </tr>
                     </tbody>
                 </table>
+            </div>
+            <div className="overflow-x-auto m-2">
+                <p>*鼻塞流鼻涕建议先使用洗鼻壶和洗鼻盐。</p>
+                <p>**怀孕或哺乳期感冒用药需要权衡利弊，本表仅供参考，建议咨询医生和药师。</p>
             </div>
             <div className="text-2xl text-center m-4">病患用药</div>
             <div className="overflow-x-auto m-2">
@@ -563,6 +570,21 @@ function App() {
                     </tr>
                     </tbody>
                 </table>
+            </div>
+            <div className="overflow-x-auto m-2">
+                <p>*鼻塞流鼻涕建议使用洗鼻壶和洗鼻盐。</p>
+                <p>**其他基础疾病（如：心脏病、肠胃道疾病、甲状腺疾病、神经系统疾病）阅读说明书或咨询医生和药师。</p>
+            </div>
+            <div className="overflow-x-auto m-2">
+                <p>说明：</p>
+                <p>1.该去医院去医院，该问医生问医生。</p>
+                <p>2.多种药一起吃一定要问医生。</p>
+                <p>3.奥密克戎毒性小，可自愈。吃药是为了缓解症状。</p>
+                <p>4.不要囤药，够用就行。留给需要的人。</p>
+                <p>5.药有保质期，检查之前买的药是否过期。</p>
+                <p>6.买个温度计，怀疑发烧就测体温，不要随意吃药。</p>
+                <p>7.吃药前看说明书，重点看注意事项和用药禁忌。</p>
+                <p>8.单独使用抗组胺药（如：苯海拉明、西替利嗪）对单纯的上呼吸道感染（如：感冒、咽炎、扁桃体炎）效果不大。</p>
             </div>
             <footer className="footer footer-center p-10 bg-base-200 text-base-content rounded">
                 <div className="grid grid-flow-col gap-4">
