@@ -25,7 +25,7 @@ function App() {
             </div>
             <div className="text-2xl text-center m-4">症状</div>
             <div className="overflow-x-auto m-2">
-                <table className="table w-full border-collapse border border-slate-500">
+                <table className="table w-full table-compact border-separate border border-slate-500">
                     <thead>
                     <tr>
                         <th className="border border-slate-600 text-center">🕗 时间</th>
@@ -142,7 +142,7 @@ function App() {
             </div>
             <div className="text-2xl text-center m-4">药名</div>
             <div className="overflow-x-auto m-2">
-                <table className="table w-full border-collapse border border-slate-500">
+                <table className="table w-full table-compact border-separate border-spacing-0 border border-slate-500">
                     <thead>
                     <tr>
                         <th className="border border-slate-600 text-center">💊 药名</th>
@@ -228,7 +228,7 @@ function App() {
             </div>
             <div className="text-2xl text-center m-4">儿童用药</div>
             <div className="overflow-x-auto m-2">
-                <table className="table w-full border-collapse border border-slate-500">
+                <table className="table w-full table-compact border-separate border-spacing-0 border border-slate-500">
                     <thead>
                     <tr>
                         <th className="border border-slate-600 text-center">😷 症状</th>
@@ -350,7 +350,7 @@ function App() {
             </div>
             <div className="text-2xl text-center m-4">成人用药</div>
             <div className="overflow-x-auto m-2">
-                <table className="table w-full border-collapse border border-slate-500">
+                <table className="table w-full table-compact border-separate border-spacing-0 border border-slate-500">
                     <thead>
                     <tr>
                         <th className="border border-slate-600 text-center">😷 症状</th>
@@ -457,7 +457,7 @@ function App() {
             </div>
             <div className="text-2xl text-center m-4">病患用药</div>
             <div className="overflow-x-auto m-2">
-                <table className="table w-full border-collapse border border-slate-500">
+                <table className="table w-full table-compact border-separate border-spacing-0 border border-slate-500">
                     <thead>
                     <tr>
                         <th className="border border-slate-600 text-center">😷 症状</th>
