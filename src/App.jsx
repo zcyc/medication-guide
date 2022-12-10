@@ -149,7 +149,7 @@ function App() {
                         <th className="border border-slate-600 text-center">🪞 类型</th>
                         <th className="border border-slate-600 text-center">🛍 商品名</th>
                         <th className="border border-slate-600 text-center">® 品牌</th>
-                        <th className="border border-slate-600 text-center">🔤 英文药名</th>
+                        <th className="border border-slate-600 text-center">🔤 英文名称</th>
                         <th className="border border-slate-600 text-center">☁️ 别名</th>
                     </tr>
                     </thead>
