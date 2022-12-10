@@ -154,72 +154,72 @@ function App() {
                     </thead>
                     <tbody>
                     <tr>
-                        <th className="border border-slate-600 text-center">扑热息痛</th>
+                        <th className="border border-slate-600 text-center">对乙酰氨基酚</th>
                         <td className="border border-slate-600 text-center">酚麻美敏混悬液</td>
-                        <td className="border border-slate-600 text-center">泰诺</td>
-                        <td className="border border-slate-600 text-center">Paracetamol</td>
-                        <td className="border border-slate-600 text-center">对乙酰氨基酚</td>
+                        <td className="border border-slate-600 text-center">泰诺、快克、散利痛、感康、仁和可立克</td>
+                        <td className="border border-slate-600 text-center">Acetaminophen、Paracetamol</td>
+                        <td className="border border-slate-600 text-center">扑热息痛</td>
                     </tr>
                     <tr>
                         <th className="border border-slate-600 text-center">布洛芬</th>
                         <td className="border border-slate-600 text-center">布洛芬缓释胶囊</td>
-                        <td className="border border-slate-600 text-center">芬必得</td>
+                        <td className="border border-slate-600 text-center">芬必得、美林</td>
                         <td className="border border-slate-600 text-center">Ibuprofen</td>
                         <td className="border border-slate-600 text-center">拔怒风</td>
                     </tr>
                     <tr>
                         <th className="border border-slate-600 text-center">右美沙芬</th>
                         <td className="border border-slate-600 text-center">氢溴酸右美沙芬口服溶液</td>
-                        <td className="border border-slate-600 text-center">联邦克立停</td>
+                        <td className="border border-slate-600 text-center">艾舒、史达功、白云山</td>
                         <td className="border border-slate-600 text-center">Dextromethorphan</td>
                         <td className="border border-slate-600 text-center">右甲吗喃</td>
                     </tr>
                     <tr>
-                        <th className="border border-slate-600 text-center">扑尔敏</th>
+                        <th className="border border-slate-600 text-center">氯苯那敏</th>
                         <td className="border border-slate-600 text-center">马来酸氯苯那敏</td>
-                        <td className="border border-slate-600 text-center"></td>
+                        <td className="border border-slate-600 text-center">维福佳、南国</td>
                         <td className="border border-slate-600 text-center">Chlorpheniramine</td>
-                        <td className="border border-slate-600 text-center">氯苯那敏</td>
+                        <td className="border border-slate-600 text-center">扑尔敏、氯菲安明、氯菲尼拉明</td>
                     </tr>
                     <tr>
                         <th className="border border-slate-600 text-center">苯海拉明</th>
                         <td className="border border-slate-600 text-center">盐酸苯海拉明片</td>
-                        <td className="border border-slate-600 text-center"></td>
+                        <td className="border border-slate-600 text-center">帝益、中南、飞赛乐</td>
                         <td className="border border-slate-600 text-center">Diphenhydramine</td>
                         <td className="border border-slate-600 text-center"></td>
                     </tr>
                     <tr>
                         <th className="border border-slate-600 text-center">氯雷他定</th>
                         <td className="border border-slate-600 text-center">氯雷他定片</td>
-                        <td className="border border-slate-600 text-center">息斯敏</td>
+                        <td className="border border-slate-600 text-center">开瑞坦、息斯敏</td>
                         <td className="border border-slate-600 text-center">Loratadine</td>
-                        <td className="border border-slate-600 text-center">克敏能</td>
+                        <td className="border border-slate-600 text-center">开瑞坦、克敏能、佳力天、乐敏锭</td>
                     </tr>
                     <tr>
                         <th className="border border-slate-600 text-center">西替利嗪</th>
                         <td className="border border-slate-600 text-center">盐酸西替利嗪</td>
-                        <td className="border border-slate-600 text-center">西可韦</td>
+                        <td className="border border-slate-600 text-center">仙特明、西可韦</td>
                         <td className="border border-slate-600 text-center">Cetirizine</td>
-                        <td className="border border-slate-600 text-center"></td>
+                        <td className="border border-slate-600 text-center">去敏定、司特宁、仙特明、协帝</td>
                     </tr>
                     <tr>
                         <th className="border border-slate-600 text-center">赛洛唑啉</th>
                         <td className="border border-slate-600 text-center">盐酸赛洛唑啉鼻用喷雾剂</td>
-                        <td className="border border-slate-600 text-center">诺通</td>
+                        <td className="border border-slate-600 text-center">诺通、新康泰克</td>
                         <td className="border border-slate-600 text-center">Xylometazoline</td>
                         <td className="border border-slate-600 text-center"></td>
                     </tr>
                     <tr>
                         <th className="border border-slate-600 text-center">羟甲唑啉</th>
                         <td className="border border-slate-600 text-center">盐酸羟甲唑啉喷雾剂</td>
-                        <td className="border border-slate-600 text-center"></td>
+                        <td className="border border-slate-600 text-center">达芬霖、仁和、民生</td>
                         <td className="border border-slate-600 text-center">Oxymetazoline</td>
                         <td className="border border-slate-600 text-center"></td>
                     </tr>
                     <tr>
                         <th className="border border-slate-600 text-center">伪麻黄碱</th>
                         <td className="border border-slate-600 text-center">复方盐酸伪麻黄碱缓释胶囊</td>
-                        <td className="border border-slate-600 text-center">新康泰克</td>
+                        <td className="border border-slate-600 text-center">新康泰克、白加黑、百服宁</td>
                         <td className="border border-slate-600 text-center">Pseudo-ephedrine</td>
                         <td className="border border-slate-600 text-center">伪麻黄素</td>
                     </tr>
@@ -242,7 +242,7 @@ function App() {
                     <tbody>
                     <tr>
                         <th className="border border-slate-600 text-center" rowSpan={2}>发烧</th>
-                        <td className="border border-slate-600 text-center">扑热息痛</td>
+                        <td className="border border-slate-600 text-center">对乙酰氨基酚</td>
                         <td className="border border-slate-600 text-center" rowSpan={2}>🏥 及时就医</td>
                         <td className="border border-slate-600 text-center">✅ 可以使用</td>
                         <td className="border border-slate-600 text-center" rowSpan={4} colSpan={2}>✅ 可以使用</td>
@@ -258,7 +258,7 @@ function App() {
                     </tr>
                     <tr>
                         <th className="border border-slate-600 text-center" rowSpan={2}>喉咙痛</th>
-                        <td className="border border-slate-600 text-center">扑热息痛</td>
+                        <td className="border border-slate-600 text-center">对乙酰氨基酚</td>
                         <td className="border border-slate-600 text-center" rowSpan={2}
                             colSpan={2}>孩子可能还不会表达喉咙痛
                         </td>
@@ -284,7 +284,7 @@ function App() {
                     </tr>
                     <tr>
                         <th className="border border-slate-600 text-center" rowSpan={4}>流鼻涕*</th>
-                        <td className="border border-slate-600 text-center">扑尔敏</td>
+                        <td className="border border-slate-600 text-center">氯苯那敏</td>
                         {/*<td className="border border-slate-600 text-center">❌ 不推荐</td>*/}
                         {/*<td className="border border-slate-600 text-center">❌ 不推荐</td>*/}
                         {/*<td className="border border-slate-600 text-center">❌ 不推荐</td>*/}
@@ -363,7 +363,7 @@ function App() {
                     <tbody>
                     <tr>
                         <th className="border border-slate-600 text-center" rowSpan={2}>发烧</th>
-                        <td className="border border-slate-600 text-center">扑热息痛</td>
+                        <td className="border border-slate-600 text-center">对乙酰氨基酚</td>
                         <td className="border border-slate-600 text-center" rowSpan={4}>✅ 可以使用</td>
                         <td className="border border-slate-600 text-center">✅ 可以使用</td>
                         <td className="border border-slate-600 text-center" rowSpan={4}>✅ 可以使用</td>
@@ -377,7 +377,7 @@ function App() {
                     </tr>
                     <tr>
                         <th className="border border-slate-600 text-center" rowSpan={2}>喉咙痛</th>
-                        <td className="border border-slate-600 text-center">扑热息痛</td>
+                        <td className="border border-slate-600 text-center">对乙酰氨基酚</td>
                         {/*<td className="border border-slate-600 text-center">✅ 可以使用</td>*/}
                         <td className="border border-slate-600 text-center">✅ 可以使用</td>
                         {/*<td className="border border-slate-600 text-center">✅ 可以使用</td>*/}
@@ -398,7 +398,7 @@ function App() {
                     </tr>
                     <tr>
                         <th className="border border-slate-600 text-center" rowSpan={4}>流鼻涕*</th>
-                        <td className="border border-slate-600 text-center">扑尔敏</td>
+                        <td className="border border-slate-600 text-center">氯苯那敏</td>
                         <td className="border border-slate-600 text-center" rowSpan={2}>✅ 可以使用</td>
                         {/*<td className="border border-slate-600 text-center">🥼 慎用，须咨询医生</td>*/}
                         <td className="border border-slate-600 text-center">❌ 不推荐</td>
@@ -470,7 +470,7 @@ function App() {
                     <tbody>
                     <tr>
                         <th className="border border-slate-600 text-center" rowSpan={2}>发烧</th>
-                        <td className="border border-slate-600 text-center">扑热息痛</td>
+                        <td className="border border-slate-600 text-center">对乙酰氨基酚</td>
                         <td className="border border-slate-600 text-center">✅ 可以使用</td>
                         <td className="border border-slate-600 text-center" rowSpan={4}>✅ 可以使用</td>
                         <td className="border border-slate-600 text-center" rowSpan={12}>🥼 慎用，须咨询医生</td>
@@ -484,7 +484,7 @@ function App() {
                     </tr>
                     <tr>
                         <th className="border border-slate-600 text-center" rowSpan={2}>喉咙痛</th>
-                        <td className="border border-slate-600 text-center">扑热息痛</td>
+                        <td className="border border-slate-600 text-center">对乙酰氨基酚</td>
                         <td className="border border-slate-600 text-center">✅ 可以使用</td>
                         {/*<td className="border border-slate-600 text-center">✅ 可以使用</td>*/}
                         {/*<td className="border border-slate-600 text-center">🥼 慎用，须咨询医生</td>*/}
@@ -506,7 +506,7 @@ function App() {
                     </tr>
                     <tr>
                         <th className="border border-slate-600 text-center" rowSpan={4}>流鼻涕*</th>
-                        <td className="border border-slate-600 text-center">扑尔敏</td>
+                        <td className="border border-slate-600 text-center">氯苯那敏</td>
                         <td className="border border-slate-600 text-center" rowSpan={2}>🥼 慎用，须咨询医生</td>
                         <td className="border border-slate-600 text-center" rowSpan={4}>✅ 可以使用</td>
                         {/*<td className="border border-slate-600 text-center">🥼 慎用，须咨询医生</td>*/}
