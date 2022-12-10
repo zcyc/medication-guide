@@ -154,70 +154,70 @@ function App() {
                     </thead>
                     <tbody>
                     <tr>
-                        <td className="border border-slate-600 text-center">扑热息痛</td>
+                        <th className="border border-slate-600 text-center">扑热息痛</th>
                         <td className="border border-slate-600 text-center">酚麻美敏混悬液</td>
                         <td className="border border-slate-600 text-center">泰诺</td>
                         <td className="border border-slate-600 text-center">Paracetamol</td>
                         <td className="border border-slate-600 text-center">对乙酰氨基酚</td>
                     </tr>
                     <tr>
-                        <td className="border border-slate-600 text-center">布洛芬</td>
+                        <th className="border border-slate-600 text-center">布洛芬</th>
                         <td className="border border-slate-600 text-center">布洛芬缓释胶囊</td>
                         <td className="border border-slate-600 text-center">芬必得</td>
                         <td className="border border-slate-600 text-center">Ibuprofen</td>
                         <td className="border border-slate-600 text-center">拔怒风</td>
                     </tr>
                     <tr>
-                        <td className="border border-slate-600 text-center">右美沙芬</td>
+                        <th className="border border-slate-600 text-center">右美沙芬</th>
                         <td className="border border-slate-600 text-center">氢溴酸右美沙芬口服溶液</td>
                         <td className="border border-slate-600 text-center">联邦克立停</td>
                         <td className="border border-slate-600 text-center">Dextromethorphan</td>
                         <td className="border border-slate-600 text-center">右甲吗喃</td>
                     </tr>
                     <tr>
-                        <td className="border border-slate-600 text-center">扑尔敏</td>
+                        <th className="border border-slate-600 text-center">扑尔敏</th>
                         <td className="border border-slate-600 text-center">马来酸氯苯那敏</td>
                         <td className="border border-slate-600 text-center"></td>
                         <td className="border border-slate-600 text-center">Chlorpheniramine</td>
                         <td className="border border-slate-600 text-center">氯苯那敏</td>
                     </tr>
                     <tr>
-                        <td className="border border-slate-600 text-center">苯海拉明</td>
+                        <th className="border border-slate-600 text-center">苯海拉明</th>
                         <td className="border border-slate-600 text-center">盐酸苯海拉明片</td>
                         <td className="border border-slate-600 text-center"></td>
                         <td className="border border-slate-600 text-center">Diphenhydramine</td>
                         <td className="border border-slate-600 text-center"></td>
                     </tr>
                     <tr>
-                        <td className="border border-slate-600 text-center">氯雷他定</td>
+                        <th className="border border-slate-600 text-center">氯雷他定</th>
                         <td className="border border-slate-600 text-center">氯雷他定片</td>
                         <td className="border border-slate-600 text-center">息斯敏</td>
                         <td className="border border-slate-600 text-center">Loratadine</td>
                         <td className="border border-slate-600 text-center">克敏能</td>
                     </tr>
                     <tr>
-                        <td className="border border-slate-600 text-center">西替利嗪</td>
+                        <th className="border border-slate-600 text-center">西替利嗪</th>
                         <td className="border border-slate-600 text-center">盐酸西替利嗪</td>
                         <td className="border border-slate-600 text-center">西可韦</td>
                         <td className="border border-slate-600 text-center">Cetirizine</td>
                         <td className="border border-slate-600 text-center"></td>
                     </tr>
                     <tr>
-                        <td className="border border-slate-600 text-center">赛洛唑啉</td>
+                        <th className="border border-slate-600 text-center">赛洛唑啉</th>
                         <td className="border border-slate-600 text-center">盐酸赛洛唑啉鼻用喷雾剂</td>
                         <td className="border border-slate-600 text-center">诺通</td>
                         <td className="border border-slate-600 text-center">Xylometazoline</td>
                         <td className="border border-slate-600 text-center"></td>
                     </tr>
                     <tr>
-                        <td className="border border-slate-600 text-center">羟甲唑啉</td>
+                        <th className="border border-slate-600 text-center">羟甲唑啉</th>
                         <td className="border border-slate-600 text-center">盐酸羟甲唑啉喷雾剂</td>
                         <td className="border border-slate-600 text-center"></td>
                         <td className="border border-slate-600 text-center">Oxymetazoline</td>
                         <td className="border border-slate-600 text-center"></td>
                     </tr>
                     <tr>
-                        <td className="border border-slate-600 text-center">伪麻黄碱</td>
+                        <th className="border border-slate-600 text-center">伪麻黄碱</th>
                         <td className="border border-slate-600 text-center">复方盐酸伪麻黄碱缓释胶囊</td>
                         <td className="border border-slate-600 text-center">新康泰克</td>
                         <td className="border border-slate-600 text-center">Pseudo-ephedrine</td>
