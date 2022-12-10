@@ -156,7 +156,7 @@ function App() {
                     <tbody>
                     <tr>
                         <th className="border border-slate-600 text-center">对乙酰氨基酚</th>
-                        <td className="border border-slate-600 text-center">酚麻美敏混悬液</td>
+                        <td className="border border-slate-600 text-center">对乙酰氨基酚片</td>
                         <td className="border border-slate-600 text-center">泰诺、快克、散利痛、感康、仁和可立克</td>
                         <td className="border border-slate-600 text-center">扑热息痛</td>
                         <th className="border border-slate-600 text-center">化学物质</th>
