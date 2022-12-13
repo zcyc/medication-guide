@@ -125,7 +125,11 @@ function App() {
                     </tbody>
                 </table>
             </div>
-            <div className="text-2xl text-center m-4">药名</div>
+            <div className="overflow-x-auto m-2">
+                <p>*根据个人体质，症状会有所不同，大部份人一周之内痊愈。</p>
+                <p>*轻症可以居家治疗，对症用药缓解症状。</p>
+            </div>
+            <div className="text-2xl text-center m-4">药品</div>
             <div className="overflow-x-auto m-2">
                 <table className="table w-full table-compact border-separate border-spacing-0 border border-slate-500">
                     <thead>
@@ -242,6 +246,10 @@ function App() {
                     </tr>
                     </tbody>
                 </table>
+            </div>
+            <div className="overflow-x-auto m-2">
+                <p>*单独使用抗组胺药（如：苯海拉明、西替利嗪）对单纯的上呼吸道感染（如：感冒、咽炎、扁桃体炎）效果不大。</p>
+                <p>*吃药前仔细看说明书，包括：适应症、禁忌症、不良反应、药物冲突、用法用量、注意事项。</p>
             </div>
             <div className="text-2xl text-center m-4">儿童用药</div>
             <div className="overflow-x-auto m-2">
@@ -592,29 +600,38 @@ function App() {
                 <p>*鼻塞流鼻涕建议使用洗鼻壶和洗鼻盐。</p>
                 <p>**其他基础疾病（如：心脏病、肠胃道疾病、甲状腺疾病、神经系统疾病）阅读说明书或咨询医生和药师。</p>
             </div>
-            <div className="overflow-x-auto m-2">
-                <p>说明：</p>
-                <p>1.该去医院去医院，该问医生问医生。</p>
-                <p>2.多种药一起吃一定要问医生。</p>
-                <p>3.奥密克戎毒性小，可自愈。吃药是为了缓解症状。</p>
-                <p>4.不要囤药，够用就行。留给需要的人。</p>
-                <p>5.药有保质期，检查之前买的药是否过期。</p>
-                <p>6.买个温度计，怀疑发烧就测体温，不要随意吃药。</p>
-                <p>7.吃药前看说明书，重点看注意事项和用药禁忌。</p>
-                <p>8.单独使用抗组胺药（如：苯海拉明、西替利嗪）对单纯的上呼吸道感染（如：感冒、咽炎、扁桃体炎）效果不大。</p>
-            </div>
             <div className="text-2xl text-center m-4">常见问题</div>
-
-            <span>
-                    <h3 className="font-bold">⚠ 以下情况请及时就医：</h3>
-                    <div>1.持续发热超过 24 小时/体温反复超过 39°C/症状好转后又出现发热；</div>
-                    <div>2.头痛、耳痛、鼻窦痛痛、严重的喉咙痛；</div>
-                    <div>3.喘息、呼吸急促/困难、口唇发紫；</div>
-                    <div>4.鼻塞/流涕/咳嗽超过 10 天且没有改善；</div>
-                    <div>5.连续用药 3 天没有改善；</div>
-                    <div>6.症状持续 7 天没有改善；</div>
-            </span>
-
+            <div className="overflow-x-auto m-2">
+                <h3 className="font-bold">1、哪些情况应该去医院？</h3>
+                <li>持续发热超过 24 小时/体温反复超过 39°C/症状好转后又出现发热；</li>
+                <li>头痛、耳痛、鼻窦痛痛、严重的喉咙痛；</li>
+                <li>喘息、呼吸急促/困难、口唇发紫；</li>
+                <li>鼻塞/流涕/咳嗽超过 10 天且没有改善；</li>
+                <li>连续用药 3 天没有改善；</li>
+                <li>症状持续 7 天没有改善；</li>
+            </div>
+            <div className="overflow-x-auto m-2">
+                <h3 className="font-bold">2、高烧多少度吃退烧药？</h3>
+                <p>体温 38.5 以上再吃退烧药，38.5 及以下可以采用温水擦拭、退热贴等物理降温手段。</p>
+                <p>儿童不能使用物理降温手段。不管成人还是儿童，不能使用冰水和酒精降温。</p>
+            </div>
+            <div className="overflow-x-auto m-2">
+                <h3 className="font-bold">3、药可以混着吃吗？</h3>
+                <p>含有同一成分的药不能混着吃，比如泰诺和快克都含有对乙酰氨基酚，不能一起吃。</p>
+                <p>不同成分的药一起吃建议问医生和药师。</p>
+            </div>
+            <div className="overflow-x-auto m-2">
+                <h3 className="font-bold">4、为什么表中没有中成药？</h3>
+                <p>因为精力有限。注意中成药和西药不要一起吃。</p>
+            </div>
+            <div className="text-2xl text-center m-4">说明</div>
+            <div className="overflow-x-auto m-2">
+                <li>该去医院去医院，该问医生问医生。</li>
+                <li>多种药一起吃一定要问医生和药师。</li>
+                <li>不要囤药，够用就行。留给需要的人。</li>
+                <li>药有保质期，检查之前买的药是否过期。</li>
+                <li>买一支温度计，怀疑发烧就测体温，不要随意吃药。</li>
+            </div>
             <footer className="footer footer-center p-10 bg-base-200 text-base-content rounded">
                 <div className="grid grid-flow-col gap-4">
                     带口罩，勤洗手，常通风，少聚集
