@@ -126,10 +126,10 @@ function App() {
                 </table>
             </div>
             <div className="overflow-x-auto m-2">
-                <p>*根据个人体质，症状会有所不同，大部份人一周之内痊愈。</p>
+                <p>*根据个人体质，症状会有所不同，大部份人一周之内好转。</p>
                 <p>*轻症可以居家治疗，对症用药缓解症状。</p>
             </div>
-            <div className="text-2xl text-center m-4">药品</div>
+            <div className="text-2xl text-center m-4">药单</div>
             <div className="overflow-x-auto m-2">
                 <table className="table w-full table-compact border-separate border-spacing-0 border border-slate-500">
                     <thead>
@@ -248,8 +248,9 @@ function App() {
                 </table>
             </div>
             <div className="overflow-x-auto m-2">
-                <p>*单独使用抗组胺药（如：苯海拉明、西替利嗪）对单纯的上呼吸道感染（如：感冒、咽炎、扁桃体炎）效果不大。</p>
+                <p>*单独使用抗组胺药对单纯的上呼吸道感染（如：感冒）效果不大。</p>
                 <p>*吃药前仔细看说明书，包括：适应症、禁忌症、不良反应、药物冲突、用法用量、注意事项。</p>
+                <p>*功能相同、成分相同、作用机制相同的药物不能混服。如：感冒药、退烧药、镇痛药。</p>
             </div>
             <div className="text-2xl text-center m-4">儿童用药</div>
             <div className="overflow-x-auto m-2">
@@ -277,7 +278,7 @@ function App() {
                         {/*<th className="border border-slate-600 text-center">发烧</th>*/}
                         <td className="border border-slate-600 text-center">布洛芬</td>
                         {/*<td className="border border-slate-600 text-center">🏥 及时就医</td>*/}
-                        <td className="border border-slate-600 text-center">❌ 不推荐</td>
+                        <td className="border border-slate-600 text-center">❌ 不建议用</td>
                         {/*<td className="border border-slate-600 text-center">✅ 可以使用</td>*/}
                         {/*<td className="border border-slate-600 text-center">✅ 可以使用</td>*/}
                     </tr>
@@ -302,66 +303,66 @@ function App() {
                     <tr>
                         <th className="border border-slate-600 text-center">干咳</th>
                         <td className="border border-slate-600 text-center">右美沙芬</td>
-                        <td className="border border-slate-600 text-center" colSpan={3} rowSpan={8}>❌ 不推荐</td>
-                        {/*<td className="border border-slate-600 text-center">❌ 不推荐</td>*/}
-                        {/*<td className="border border-slate-600 text-center">❌ 不推荐</td>*/}
-                        <td className="border border-slate-600 text-center" rowSpan={8}>🥼 慎用，须咨询医生</td>
+                        <td className="border border-slate-600 text-center" colSpan={3} rowSpan={8}>❌ 不建议用</td>
+                        {/*<td className="border border-slate-600 text-center">❌ 不建议用</td>*/}
+                        {/*<td className="border border-slate-600 text-center">❌ 不建议用</td>*/}
+                        <td className="border border-slate-600 text-center" rowSpan={8}>🥼 慎用，遵医嘱</td>
                     </tr>
                     <tr>
                         <th className="border border-slate-600 text-center" rowSpan={4}>流鼻涕*</th>
                         <td className="border border-slate-600 text-center">氯苯那敏</td>
-                        {/*<td className="border border-slate-600 text-center">❌ 不推荐</td>*/}
-                        {/*<td className="border border-slate-600 text-center">❌ 不推荐</td>*/}
-                        {/*<td className="border border-slate-600 text-center">❌ 不推荐</td>*/}
-                        {/*<td className="border border-slate-600 text-center">🥼 慎用，须咨询医生</td>*/}
+                        {/*<td className="border border-slate-600 text-center">❌ 不建议用</td>*/}
+                        {/*<td className="border border-slate-600 text-center">❌ 不建议用</td>*/}
+                        {/*<td className="border border-slate-600 text-center">❌ 不建议用</td>*/}
+                        {/*<td className="border border-slate-600 text-center">🥼 慎用，遵医嘱</td>*/}
                     </tr>
                     <tr>
                         {/*<th className="border border-slate-600 text-center">流鼻涕*</th>*/}
                         <td className="border border-slate-600 text-center">苯海拉明</td>
-                        {/*<td className="border border-slate-600 text-center">❌ 不推荐</td>*/}
-                        {/*<td className="border border-slate-600 text-center">❌ 不推荐</td>*/}
-                        {/*<td className="border border-slate-600 text-center">❌ 不推荐</td>*/}
-                        {/*<td className="border border-slate-600 text-center">🥼 慎用，须咨询医生</td>*/}
+                        {/*<td className="border border-slate-600 text-center">❌ 不建议用</td>*/}
+                        {/*<td className="border border-slate-600 text-center">❌ 不建议用</td>*/}
+                        {/*<td className="border border-slate-600 text-center">❌ 不建议用</td>*/}
+                        {/*<td className="border border-slate-600 text-center">🥼 慎用，遵医嘱</td>*/}
                     </tr>
                     <tr>
                         {/*<th className="border border-slate-600 text-center">流鼻涕*</th>*/}
                         <td className="border border-slate-600 text-center">氯雷他定</td>
-                        {/*<td className="border border-slate-600 text-center">❌ 不推荐</td>*/}
-                        {/*<td className="border border-slate-600 text-center">❌ 不推荐</td>*/}
-                        {/*<td className="border border-slate-600 text-center">❌ 不推荐</td>*/}
-                        {/*<td className="border border-slate-600 text-center">🥼 慎用，须咨询医生</td>*/}
+                        {/*<td className="border border-slate-600 text-center">❌ 不建议用</td>*/}
+                        {/*<td className="border border-slate-600 text-center">❌ 不建议用</td>*/}
+                        {/*<td className="border border-slate-600 text-center">❌ 不建议用</td>*/}
+                        {/*<td className="border border-slate-600 text-center">🥼 慎用，遵医嘱</td>*/}
                     </tr>
                     <tr>
                         {/*<th className="border border-slate-600 text-center">流鼻涕*</th>*/}
                         <td className="border border-slate-600 text-center">西替利嗪</td>
-                        {/*<td className="border border-slate-600 text-center">❌ 不推荐</td>*/}
-                        {/*<td className="border border-slate-600 text-center">❌ 不推荐</td>*/}
-                        {/*<td className="border border-slate-600 text-center">❌ 不推荐</td>*/}
-                        {/*<td className="border border-slate-600 text-center">🥼 慎用，须咨询医生</td>*/}
+                        {/*<td className="border border-slate-600 text-center">❌ 不建议用</td>*/}
+                        {/*<td className="border border-slate-600 text-center">❌ 不建议用</td>*/}
+                        {/*<td className="border border-slate-600 text-center">❌ 不建议用</td>*/}
+                        {/*<td className="border border-slate-600 text-center">🥼 慎用，遵医嘱</td>*/}
                     </tr>
                     <tr>
                         <th className="border border-slate-600 text-center" rowSpan={3}>鼻塞*</th>
                         <td className="border border-slate-600 text-center">赛洛唑啉</td>
-                        {/*<td className="border border-slate-600 text-center">❌ 不推荐</td>*/}
-                        {/*<td className="border border-slate-600 text-center">❌ 不推荐</td>*/}
-                        {/*<td className="border border-slate-600 text-center">❌ 不推荐</td>*/}
-                        {/*<td className="border border-slate-600 text-center">🥼 慎用，须咨询医生</td>*/}
+                        {/*<td className="border border-slate-600 text-center">❌ 不建议用</td>*/}
+                        {/*<td className="border border-slate-600 text-center">❌ 不建议用</td>*/}
+                        {/*<td className="border border-slate-600 text-center">❌ 不建议用</td>*/}
+                        {/*<td className="border border-slate-600 text-center">🥼 慎用，遵医嘱</td>*/}
                     </tr>
                     <tr>
                         {/*<th className="border border-slate-600 text-center">鼻塞*</th>*/}
                         <td className="border border-slate-600 text-center">羟甲唑啉</td>
-                        {/*<td className="border border-slate-600 text-center">❌ 不推荐</td>*/}
-                        {/*<td className="border border-slate-600 text-center">❌ 不推荐</td>*/}
-                        {/*<td className="border border-slate-600 text-center">❌ 不推荐</td>*/}
-                        {/*<td className="border border-slate-600 text-center">🥼 慎用，须咨询医生</td>*/}
+                        {/*<td className="border border-slate-600 text-center">❌ 不建议用</td>*/}
+                        {/*<td className="border border-slate-600 text-center">❌ 不建议用</td>*/}
+                        {/*<td className="border border-slate-600 text-center">❌ 不建议用</td>*/}
+                        {/*<td className="border border-slate-600 text-center">🥼 慎用，遵医嘱</td>*/}
                     </tr>
                     <tr>
                         {/*<th className="border border-slate-600 text-center">鼻塞*</th>*/}
                         <td className="border border-slate-600 text-center">伪麻黄碱</td>
-                        {/*<td className="border border-slate-600 text-center">❌ 不推荐</td>*/}
-                        {/*<td className="border border-slate-600 text-center">❌ 不推荐</td>*/}
-                        {/*<td className="border border-slate-600 text-center">❌ 不推荐</td>*/}
-                        {/*<td className="border border-slate-600 text-center">🥼 慎用，须咨询医生</td>*/}
+                        {/*<td className="border border-slate-600 text-center">❌ 不建议用</td>*/}
+                        {/*<td className="border border-slate-600 text-center">❌ 不建议用</td>*/}
+                        {/*<td className="border border-slate-600 text-center">❌ 不建议用</td>*/}
+                        {/*<td className="border border-slate-600 text-center">🥼 慎用，遵医嘱</td>*/}
                     </tr>
                     <tr>
                         <th className="border border-slate-600 text-center">咳痰</th>
@@ -375,6 +376,7 @@ function App() {
             </div>
             <div className="overflow-x-auto m-2">
                 <p>*鼻塞流鼻涕建议：低龄儿童使用生理盐水鼻喷剂/生理盐水滴鼻剂/吸鼻器；能配合的儿童使用洗鼻壶和洗鼻盐。</p>
+                <p>**儿童的剂量和成人不同，记得看说明书。</p>
             </div>
             <div className="text-2xl text-center m-4">成人用药</div>
             <div className="overflow-x-auto m-2">
@@ -400,7 +402,7 @@ function App() {
                         {/*<th className="border border-slate-600 text-center">发烧</th>*/}
                         <td className="border border-slate-600 text-center">布洛芬</td>
                         {/*<td className="border border-slate-600 text-center">✅ 可以使用</td>*/}
-                        <td className="border border-slate-600 text-center">孕晚期风险高，早/中期咨询医生</td>
+                        <td className="border border-slate-600 text-center">孕晚期风险高，早/中期遵医嘱</td>
                         {/*<td className="border border-slate-600 text-center">✅ 可以使用</td>*/}
                     </tr>
                     <tr>
@@ -414,29 +416,29 @@ function App() {
                         {/*<th className="border border-slate-600 text-center">喉咙痛</th>*/}
                         <td className="border border-slate-600 text-center">布洛芬</td>
                         {/*<td className="border border-slate-600 text-center">✅ 可以使用</td>*/}
-                        <td className="border border-slate-600 text-center">孕晚期风险高，早/中期咨询医生</td>
+                        <td className="border border-slate-600 text-center">孕晚期风险高，早/中期遵医嘱</td>
                         {/*<td className="border border-slate-600 text-center">✅ 可以使用</td>*/}
                     </tr>
                     <tr>
                         <th className="border border-slate-600 text-center">干咳</th>
                         <td className="border border-slate-600 text-center">右美沙芬</td>
                         <td className="border border-slate-600 text-center">仅限剧烈咳嗷影响生活时，不超过7天</td>
-                        <td className="border border-slate-600 text-center" rowSpan={3}>🥼 慎用，须咨询医生</td>
-                        <td className="border border-slate-600 text-center">🥼 慎用，须咨询医生</td>
+                        <td className="border border-slate-600 text-center" rowSpan={3}>🥼 慎用，遵医嘱</td>
+                        <td className="border border-slate-600 text-center">🥼 慎用，遵医嘱</td>
                     </tr>
                     <tr>
                         <th className="border border-slate-600 text-center" rowSpan={4}>流鼻涕*</th>
                         <td className="border border-slate-600 text-center">氯苯那敏</td>
                         <td className="border border-slate-600 text-center" rowSpan={2}>✅ 可以使用</td>
-                        {/*<td className="border border-slate-600 text-center">🥼 慎用，须咨询医生</td>*/}
-                        <td className="border border-slate-600 text-center">❌ 不推荐</td>
+                        {/*<td className="border border-slate-600 text-center">🥼 慎用，遵医嘱</td>*/}
+                        <td className="border border-slate-600 text-center">❌ 不建议用</td>
                     </tr>
                     <tr>
                         {/*<th className="border border-slate-600 text-center">流鼻涕*</th>*/}
                         <td className="border border-slate-600 text-center">苯海拉明</td>
                         {/*<td className="border border-slate-600 text-center">✅ 可以使用</td>*/}
-                        {/*<td className="border border-slate-600 text-center">🥼 慎用，须咨询医生</td>*/}
-                        <td className="border border-slate-600 text-center">🥼 慎用，须咨询医生</td>
+                        {/*<td className="border border-slate-600 text-center">🥼 慎用，遵医嘱</td>*/}
+                        <td className="border border-slate-600 text-center">🥼 慎用，遵医嘱</td>
                     </tr>
                     <tr>
                         {/*<th className="border border-slate-600 text-center">流鼻涕*</th>*/}
@@ -456,22 +458,22 @@ function App() {
                         <th className="border border-slate-600 text-center" rowSpan={3}>鼻塞*</th>
                         <td className="border border-slate-600 text-center">赛洛唑啉</td>
                         <td className="border border-slate-600 text-center" rowSpan={2}>不超过3天</td>
-                        <td className="border border-slate-600 text-center" rowSpan={3}>❌ 不推荐</td>
-                        <td className="border border-slate-600 text-center" rowSpan={2}>🥼 慎用，须咨询医生</td>
+                        <td className="border border-slate-600 text-center" rowSpan={3}>❌ 不建议用</td>
+                        <td className="border border-slate-600 text-center" rowSpan={2}>🥼 慎用，遵医嘱</td>
                     </tr>
                     <tr>
                         {/*<th className="border border-slate-600 text-center">鼻塞*</th>*/}
                         <td className="border border-slate-600 text-center">羟甲唑啉</td>
                         {/*<td className="border border-slate-600 text-center">不超过3天</td>*/}
-                        {/*<td className="border border-slate-600 text-center">❌ 不推荐</td>*/}
-                        {/*<td className="border border-slate-600 text-center">🥼 慎用，须咨询医生</td>*/}
+                        {/*<td className="border border-slate-600 text-center">❌ 不建议用</td>*/}
+                        {/*<td className="border border-slate-600 text-center">🥼 慎用，遵医嘱</td>*/}
                     </tr>
                     <tr>
                         {/*<th className="border border-slate-600 text-center">鼻塞*</th>*/}
                         <td className="border border-slate-600 text-center">伪麻黄碱</td>
                         <td className="border border-slate-600 text-center">✅ 可以使用</td>
-                        {/*<td className="border border-slate-600 text-center">❌ 不推荐</td>*/}
-                        <td className="border border-slate-600 text-center">❌ 不推荐</td>
+                        {/*<td className="border border-slate-600 text-center">❌ 不建议用</td>*/}
+                        <td className="border border-slate-600 text-center">❌ 不建议用</td>
                     </tr>
                     <tr>
                         <th className="border border-slate-600 text-center">咳痰</th>
@@ -485,7 +487,7 @@ function App() {
             </div>
             <div className="overflow-x-auto m-2">
                 <p>*鼻塞流鼻涕建议先使用洗鼻壶和洗鼻盐。</p>
-                <p>**怀孕或哺乳期感冒用药需要权衡利弊，本表仅供参考，建议咨询医生和药师。</p>
+                <p>**怀孕或哺乳期感冒用药需要权衡利弊，本表仅供参考，建议遵医嘱和药师。</p>
             </div>
             <div className="text-2xl text-center m-4">病患用药</div>
             <div className="overflow-x-auto m-2">
@@ -505,28 +507,28 @@ function App() {
                         <td className="border border-slate-600 text-center">对乙酰氨基酚</td>
                         <td className="border border-slate-600 text-center">✅ 可以使用</td>
                         <td className="border border-slate-600 text-center" rowSpan={4}>✅ 可以使用</td>
-                        <td className="border border-slate-600 text-center" rowSpan={12}>🥼 慎用，须咨询医生</td>
+                        <td className="border border-slate-600 text-center" rowSpan={12}>🥼 慎用，遵医嘱</td>
                     </tr>
                     <tr>
                         {/*<th className="border border-slate-600 text-center">发烧</th>*/}
                         <td className="border border-slate-600 text-center">布洛芬</td>
-                        <td className="border border-slate-600 text-center">🥼 慎用，须咨询医生</td>
+                        <td className="border border-slate-600 text-center">🥼 慎用，遵医嘱</td>
                         {/*<td className="border border-slate-600 text-center">✅ 可以使用</td>*/}
-                        {/*<td className="border border-slate-600 text-center">🥼 慎用，须咨询医生</td>*/}
+                        {/*<td className="border border-slate-600 text-center">🥼 慎用，遵医嘱</td>*/}
                     </tr>
                     <tr>
                         <th className="border border-slate-600 text-center" rowSpan={2}>喉咙痛</th>
                         <td className="border border-slate-600 text-center">对乙酰氨基酚</td>
                         <td className="border border-slate-600 text-center">✅ 可以使用</td>
                         {/*<td className="border border-slate-600 text-center">✅ 可以使用</td>*/}
-                        {/*<td className="border border-slate-600 text-center">🥼 慎用，须咨询医生</td>*/}
+                        {/*<td className="border border-slate-600 text-center">🥼 慎用，遵医嘱</td>*/}
                     </tr>
                     <tr>
                         {/*<th className="border border-slate-600 text-center">喉咙痛</th>*/}
                         <td className="border border-slate-600 text-center">布洛芬</td>
-                        <td className="border border-slate-600 text-center">🥼 慎用，须咨询医生</td>
+                        <td className="border border-slate-600 text-center">🥼 慎用，遵医嘱</td>
                         {/*<td className="border border-slate-600 text-center">✅ 可以使用</td>*/}
-                        {/*<td className="border border-slate-600 text-center">🥼 慎用，须咨询医生</td>*/}
+                        {/*<td className="border border-slate-600 text-center">🥼 慎用，遵医嘱</td>*/}
                     </tr>
                     <tr>
                         <th className="border border-slate-600 text-center">干咳</th>
@@ -534,57 +536,57 @@ function App() {
                         <td className="border border-slate-600 text-center" colSpan={2}>仅限剧烈咳嗷影响生活时，不超过7天
                         </td>
                         {/*<td className="border border-slate-600 text-center">仅限剧烈咳嗷影响生活时，不超过7天</td>*/}
-                        {/*<td className="border border-slate-600 text-center">🥼 慎用，须咨询医生</td>*/}
+                        {/*<td className="border border-slate-600 text-center">🥼 慎用，遵医嘱</td>*/}
                     </tr>
                     <tr>
                         <th className="border border-slate-600 text-center" rowSpan={4}>流鼻涕*</th>
                         <td className="border border-slate-600 text-center">氯苯那敏</td>
-                        <td className="border border-slate-600 text-center" rowSpan={2}>🥼 慎用，须咨询医生</td>
+                        <td className="border border-slate-600 text-center" rowSpan={2}>🥼 慎用，遵医嘱</td>
                         <td className="border border-slate-600 text-center" rowSpan={4}>✅ 可以使用</td>
-                        {/*<td className="border border-slate-600 text-center">🥼 慎用，须咨询医生</td>*/}
+                        {/*<td className="border border-slate-600 text-center">🥼 慎用，遵医嘱</td>*/}
                     </tr>
                     <tr>
                         {/*<th className="border border-slate-600 text-center">流鼻涕*</th>*/}
                         <td className="border border-slate-600 text-center">苯海拉明</td>
-                        {/*<td className="border border-slate-600 text-center">🥼 慎用，须咨询医生</td>*/}
+                        {/*<td className="border border-slate-600 text-center">🥼 慎用，遵医嘱</td>*/}
                         {/*<td className="border border-slate-600 text-center">✅ 可以使用</td>*/}
-                        {/*<td className="border border-slate-600 text-center">🥼 慎用，须咨询医生</td>*/}
+                        {/*<td className="border border-slate-600 text-center">🥼 慎用，遵医嘱</td>*/}
                     </tr>
                     <tr>
                         {/*<th className="border border-slate-600 text-center">流鼻涕*</th>*/}
                         <td className="border border-slate-600 text-center">氯雷他定</td>
                         <td className="border border-slate-600 text-center" rowSpan={2}>✅ 可以使用</td>
                         {/*<td className="border border-slate-600 text-center">✅ 可以使用</td>*/}
-                        {/*<td className="border border-slate-600 text-center">🥼 慎用，须咨询医生</td>*/}
+                        {/*<td className="border border-slate-600 text-center">🥼 慎用，遵医嘱</td>*/}
                     </tr>
                     <tr>
                         {/*<th className="border border-slate-600 text-center">流鼻涕*</th>*/}
                         <td className="border border-slate-600 text-center">西替利嗪</td>
                         {/*<td className="border border-slate-600 text-center">✅ 可以使用</td>*/}
                         {/*<td className="border border-slate-600 text-center">✅ 可以使用</td>*/}
-                        {/*<td className="border border-slate-600 text-center">🥼 慎用，须咨询医生</td>*/}
+                        {/*<td className="border border-slate-600 text-center">🥼 慎用，遵医嘱</td>*/}
                     </tr>
                     <tr>
                         <th className="border border-slate-600 text-center" rowSpan={3}>鼻塞*</th>
                         <td className="border border-slate-600 text-center">赛洛唑啉</td>
-                        <td className="border border-slate-600 text-center" rowSpan={3} colSpan={2}>🥼 慎用，须咨询医生
+                        <td className="border border-slate-600 text-center" rowSpan={3} colSpan={2}>🥼 慎用，遵医嘱
                         </td>
-                        {/*<td className="border border-slate-600 text-center">🥼 慎用，须咨询医生</td>*/}
-                        {/*<td className="border border-slate-600 text-center">🥼 慎用，须咨询医生</td>*/}
+                        {/*<td className="border border-slate-600 text-center">🥼 慎用，遵医嘱</td>*/}
+                        {/*<td className="border border-slate-600 text-center">🥼 慎用，遵医嘱</td>*/}
                     </tr>
                     <tr>
                         {/*<th className="border border-slate-600 text-center">鼻塞*</th>*/}
                         <td className="border border-slate-600 text-center">羟甲唑啉</td>
-                        {/*<td className="border border-slate-600 text-center">🥼 慎用，须咨询医生</td>*/}
-                        {/*<td className="border border-slate-600 text-center">🥼 慎用，须咨询医生</td>*/}
-                        {/*<td className="border border-slate-600 text-center">🥼 慎用，须咨询医生</td>*/}
+                        {/*<td className="border border-slate-600 text-center">🥼 慎用，遵医嘱</td>*/}
+                        {/*<td className="border border-slate-600 text-center">🥼 慎用，遵医嘱</td>*/}
+                        {/*<td className="border border-slate-600 text-center">🥼 慎用，遵医嘱</td>*/}
                     </tr>
                     <tr>
                         {/*<th className="border border-slate-600 text-center">鼻塞*</th>*/}
                         <td className="border border-slate-600 text-center">伪麻黄碱</td>
-                        {/*<td className="border border-slate-600 text-center">🥼 慎用，须咨询医生</td>*/}
-                        {/*<td className="border border-slate-600 text-center">🥼 慎用，须咨询医生</td>*/}
-                        {/*<td className="border border-slate-600 text-center">🥼 慎用，须咨询医生</td>*/}
+                        {/*<td className="border border-slate-600 text-center">🥼 慎用，遵医嘱</td>*/}
+                        {/*<td className="border border-slate-600 text-center">🥼 慎用，遵医嘱</td>*/}
+                        {/*<td className="border border-slate-600 text-center">🥼 慎用，遵医嘱</td>*/}
                     </tr>
                     <tr>
                         <th className="border border-slate-600 text-center">咳痰</th>
@@ -598,12 +600,15 @@ function App() {
             </div>
             <div className="overflow-x-auto m-2">
                 <p>*鼻塞流鼻涕建议使用洗鼻壶和洗鼻盐。</p>
-                <p>**其他基础疾病（如：心脏病、肠胃道疾病、甲状腺疾病、神经系统疾病）阅读说明书或咨询医生和药师。</p>
+                <p>**其他基础疾病（如：心脏病、肠胃道疾病、甲状腺疾病、神经系统疾病）阅读说明书或遵医嘱和药师。</p>
             </div>
             <div className="text-2xl text-center m-4">常见问题</div>
             <div className="overflow-x-auto m-2">
                 <h3 className="font-bold">1、哪些情况应该去医院？</h3>
                 <li>持续发热超过 24 小时/体温反复超过 39°C/症状好转后又出现发热；</li>
+                <li>基础病加重不受控制；</li>
+                <li>婴幼儿出现嗜睡、拒食、持续腹泻、呕吐；</li>
+                <li>孕妇出现头痛、头晕、心慌、憋气或阴道出血、流液、胎动异常；</li>
                 <li>头痛、耳痛、鼻窦痛痛、严重的喉咙痛；</li>
                 <li>喘息、呼吸急促/困难、口唇发紫；</li>
                 <li>鼻塞/流涕/咳嗽超过 10 天且没有改善；</li>
@@ -624,13 +629,52 @@ function App() {
                 <h3 className="font-bold">4、为什么表中没有中成药？</h3>
                 <p>因为精力有限。注意中成药和西药不要一起吃。</p>
             </div>
+            <div className="overflow-x-auto m-2">
+                <h3 className="font-bold">5、BA7 和 BA5 的区别？</h3>
+                <p>BA5 更温和。</p>
+            </div>
+            <div className="overflow-x-auto m-2">
+                <h3 className="font-bold">6、短时间内会重复感染吗？</h3>
+                <p>不管是不是同一种毒株，短时间都不会重复感染。</p>
+            </div>
+            <div className="overflow-x-auto m-2">
+                <h3 className="font-bold">7、新冠会加重基础病吗？</h3>
+                <p>会，尤其是老年人的基础病。</p>
+            </div>
+            <div className="overflow-x-auto m-2">
+                <h3 className="font-bold">8、哪些人群容易感染新冠？</h3>
+                <p>目前流行的毒株传染性极强，所有人都容易感染。</p>
+            </div>
+            <div className="overflow-x-auto m-2">
+                <h3 className="font-bold">9、哪些人群症状会比较严重？</h3>
+                <p>老人和未接种疫苗的人，尤其是未接种疫苗的老人。</p>
+            </div>
+            <div className="overflow-x-auto m-2">
+                <h3 className="font-bold">10、临时核酸采集点取消了到哪做核酸？</h3>
+                <p>医院的发热门诊和核酸检测窗口。</p>
+            </div>
+            <div className="overflow-x-auto m-2">
+                <h3 className="font-bold">11、自测阳性需要上报吗？</h3>
+                <p>需要，上报基层医疗卫生机构。</p>
+            </div>
+            <div className="overflow-x-auto m-2">
+                <h3 className="font-bold">12、怕去医院传染，怎么买处方药？</h3>
+                <p>在医疗机构的互联网诊疗平台可以开处方，然后凭处方到第三方购买处方药。</p>
+            </div>
+            <div className="overflow-x-auto m-2">
+                <h3 className="font-bold">13、多少岁可以打疫苗？</h3>
+                <p>3周岁以上。</p>
+            </div>
             <div className="text-2xl text-center m-4">说明</div>
             <div className="overflow-x-auto m-2">
-                <li>该去医院去医院，该问医生问医生。</li>
-                <li>多种药一起吃一定要问医生和药师。</li>
+                <li>该去医院就去，不要耽误病情。</li>
+                <li>多种药混服一定要遵医嘱。</li>
+                <li>吃药不能预防新冠。</li>
                 <li>不要囤药，够用就行。留给需要的人。</li>
                 <li>药有保质期，检查之前买的药是否过期。</li>
                 <li>买一支温度计，怀疑发烧就测体温，不要随意吃药。</li>
+                <li>买一盒核酸抗原，怀疑感染就自测，去混查容易感染。</li>
+                <li>孕妇、哺乳期妇女、有基础病的人群建议咨询医生。</li>
             </div>
             <footer className="footer footer-center p-10 bg-base-200 text-base-content rounded">
                 <div className="grid grid-flow-col gap-4">
