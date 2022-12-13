@@ -8,21 +8,6 @@ function App() {
                     🦠 新型冠状病毒病症状 & 💊 症状缓解药物
                 </h1>
             </div>
-            <div className="m-2">
-                <div className="alert alert-error shadow-lg">
-                    <div>
-                <span>
-                    <h3 className="font-bold">⚠ 以下情况请及时就医：</h3>
-                    <div>1.持续发热超过 24 小时/体温反复超过 39°C/症状好转后又出现发热；</div>
-                    <div>2.头痛、耳痛、鼻窦痛痛、严重的喉咙痛；</div>
-                    <div>3.喘息、呼吸急促/困难、口唇发紫；</div>
-                    <div>4.鼻塞/流涕/咳嗽超过 10 天且没有改善；</div>
-                    <div>5.连续用药 3 天没有改善；</div>
-                    <div>6.症状持续 7 天没有改善；</div>
-                </span>
-                    </div>
-                </div>
-            </div>
             <div className="text-2xl text-center m-4">症状</div>
             <div className="overflow-x-auto m-2">
                 <table className="table w-full table-compact border-separate border border-slate-500">
@@ -155,12 +140,21 @@ function App() {
                     </thead>
                     <tbody>
                     <tr>
-                        <th className="border border-slate-600 text-center">对乙酰氨基酚</th>
+                        <th className="border border-slate-600 text-center" rowSpan="2">对乙酰氨基酚</th>
                         <td className="border border-slate-600 text-center">对乙酰氨基酚片</td>
-                        <td className="border border-slate-600 text-center">泰诺、快克、散利痛、感康、仁和可立克</td>
+                        <td className="border border-slate-600 text-center">泰诺、散利痛</td>
                         <td className="border border-slate-600 text-center">扑热息痛</td>
-                        <th className="border border-slate-600 text-center">化学物质</th>
-                        <td className="border border-slate-600 text-center">Acetaminophen、Paracetamol</td>
+                        <th className="border border-slate-600 text-center" rowSpan="2">化学物质</th>
+                        <td className="border border-slate-600 text-center" rowSpan="2">Acetaminophen、Paracetamol</td>
+
+                    </tr>
+                    <tr>
+                        {/*<th className="border border-slate-600 text-center">对乙酰氨基酚</th>*/}
+                        <td className="border border-slate-600 text-center">复方氨酚烷胺片</td>
+                        <td className="border border-slate-600 text-center">快克、感康、仁和可立克</td>
+                        <td className="border border-slate-600 text-center">感冒药</td>
+                        {/*<th className="border border-slate-600 text-center">化学物质</th>*/}
+                        {/*<td className="border border-slate-600 text-center">Acetaminophen、Paracetamol</td>*/}
 
                     </tr>
                     <tr>
@@ -609,6 +603,18 @@ function App() {
                 <p>7.吃药前看说明书，重点看注意事项和用药禁忌。</p>
                 <p>8.单独使用抗组胺药（如：苯海拉明、西替利嗪）对单纯的上呼吸道感染（如：感冒、咽炎、扁桃体炎）效果不大。</p>
             </div>
+            <div className="text-2xl text-center m-4">常见问题</div>
+
+            <span>
+                    <h3 className="font-bold">⚠ 以下情况请及时就医：</h3>
+                    <div>1.持续发热超过 24 小时/体温反复超过 39°C/症状好转后又出现发热；</div>
+                    <div>2.头痛、耳痛、鼻窦痛痛、严重的喉咙痛；</div>
+                    <div>3.喘息、呼吸急促/困难、口唇发紫；</div>
+                    <div>4.鼻塞/流涕/咳嗽超过 10 天且没有改善；</div>
+                    <div>5.连续用药 3 天没有改善；</div>
+                    <div>6.症状持续 7 天没有改善；</div>
+            </span>
+
             <footer className="footer footer-center p-10 bg-base-200 text-base-content rounded">
                 <div className="grid grid-flow-col gap-4">
                     带口罩，勤洗手，常通风，少聚集
