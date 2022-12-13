@@ -630,7 +630,7 @@ function App() {
                 <p>因为精力有限。注意中成药和西药不要一起吃。</p>
             </div>
             <div className="overflow-x-auto m-2">
-                <h3 className="font-bold">5、BA7 和 BA5 的区别？</h3>
+                <h3 className="font-bold">5、BF7 和 BA5 的区别？</h3>
                 <p>BA5 更温和。</p>
             </div>
             <div className="overflow-x-auto m-2">
