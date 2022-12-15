@@ -8,7 +8,7 @@ function App() {
                     🦠 新型冠状病毒病症状 & 💊 症状缓解药物
                 </h1>
             </div>
-            <div className="text-2xl text-center m-4">症状</div>
+            <div className="text-2xl text-center m-4">症状参考</div>
             <div className="overflow-x-auto m-2">
                 <table className="table w-full table-compact border-separate border border-slate-500">
                     <thead>
