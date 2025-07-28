@@ -134,7 +134,6 @@ function App() {
                 <table className="table w-full table-compact border-separate border-spacing-0 border border-slate-500">
                     <thead>
                     <tr>
-                        <th className="border border-slate-600 text-center">💊 名称</th>
                         <th className="border border-slate-600 text-center">🛍 通用名</th>
                         <th className="border border-slate-600 text-center">® 商品名</th>
                         <th className="border border-slate-600 text-center">☁️ 别名</th>
@@ -144,25 +143,20 @@ function App() {
                     </thead>
                     <tbody>
                     <tr>
-                        <th className="border border-slate-600 text-center" rowSpan="2">对乙酰氨基酚</th>
                         <td className="border border-slate-600 text-center">对乙酰氨基酚片</td>
                         <td className="border border-slate-600 text-center">泰诺、散利痛</td>
                         <td className="border border-slate-600 text-center">扑热息痛</td>
-                        <th className="border border-slate-600 text-center" rowSpan="2">非甾体抗炎药</th>
-                        <td className="border border-slate-600 text-center" rowSpan="2">Acetaminophen、Paracetamol</td>
-
+                        <th className="border border-slate-600 text-center">非甾体抗炎药</th>
+                        <td className="border border-slate-600 text-center">Acetaminophen、Paracetamol</td>
                     </tr>
                     <tr>
-                        {/*<th className="border border-slate-600 text-center">对乙酰氨基酚</th>*/}
                         <td className="border border-slate-600 text-center">复方氨酚烷胺片</td>
                         <td className="border border-slate-600 text-center">快克、感康、仁和可立克</td>
                         <td className="border border-slate-600 text-center">感冒药</td>
-                        {/*<th className="border border-slate-600 text-center">化学物质</th>*/}
-                        {/*<td className="border border-slate-600 text-center">Acetaminophen、Paracetamol</td>*/}
-
+                        <th className="border border-slate-600 text-center">非甾体抗炎药</th>
+                        <td className="border border-slate-600 text-center">Acetaminophen、Paracetamol</td>
                     </tr>
                     <tr>
-                        <th className="border border-slate-600 text-center">布洛芬</th>
                         <td className="border border-slate-600 text-center">布洛芬缓释胶囊</td>
                         <td className="border border-slate-600 text-center">芬必得、美林</td>
                         <td className="border border-slate-600 text-center">拔怒风</td>
@@ -170,7 +164,6 @@ function App() {
                         <td className="border border-slate-600 text-center">Ibuprofen</td>
                     </tr>
                     <tr>
-                        <th className="border border-slate-600 text-center">右美沙芬</th>
                         <td className="border border-slate-600 text-center">氢溴酸右美沙芬口服溶液</td>
                         <td className="border border-slate-600 text-center">艾舒、史达功、白云山</td>
                         <td className="border border-slate-600 text-center">右甲吗喃</td>
@@ -179,7 +172,6 @@ function App() {
 
                     </tr>
                     <tr>
-                        <th className="border border-slate-600 text-center">氯苯那敏</th>
                         <td className="border border-slate-600 text-center">马来酸氯苯那敏</td>
                         <td className="border border-slate-600 text-center">维福佳、南国</td>
                         <td className="border border-slate-600 text-center">扑尔敏、氯菲安明、氯菲尼拉明</td>
@@ -188,7 +180,6 @@ function App() {
 
                     </tr>
                     <tr>
-                        <th className="border border-slate-600 text-center">苯海拉明</th>
                         <td className="border border-slate-600 text-center">盐酸苯海拉明片</td>
                         <td className="border border-slate-600 text-center">帝益、中南、飞赛乐</td>
                         <td className="border border-slate-600 text-center"></td>
@@ -196,7 +187,6 @@ function App() {
                         <td className="border border-slate-600 text-center">Diphenhydramine</td>
                     </tr>
                     <tr>
-                        <th className="border border-slate-600 text-center">氯雷他定</th>
                         <td className="border border-slate-600 text-center">氯雷他定片</td>
                         <td className="border border-slate-600 text-center">开瑞坦、息斯敏</td>
                         <td className="border border-slate-600 text-center">开瑞坦、克敏能、佳力天、乐敏锭</td>
@@ -204,7 +194,6 @@ function App() {
                         <td className="border border-slate-600 text-center">Loratadine</td>
                     </tr>
                     <tr>
-                        <th className="border border-slate-600 text-center">西替利嗪</th>
                         <td className="border border-slate-600 text-center">盐酸西替利嗪片</td>
                         <td className="border border-slate-600 text-center">仙特明、西可韦</td>
                         <td className="border border-slate-600 text-center">去敏定、司特宁、仙特明、协帝</td>
@@ -212,7 +201,6 @@ function App() {
                         <td className="border border-slate-600 text-center">Cetirizine</td>
                     </tr>
                     <tr>
-                        <th className="border border-slate-600 text-center">地氯雷他定</th>
                         <td className="border border-slate-600 text-center">地氯雷他定干混悬剂</td>
                         <td className="border border-slate-600 text-center">芙必叮</td>
                         <td className="border border-slate-600 text-center">先灵葆雅、美时</td>
@@ -221,7 +209,6 @@ function App() {
 
                     </tr>
                     <tr>
-                        <th className="border border-slate-600 text-center">赛洛唑啉</th>
                         <td className="border border-slate-600 text-center">盐酸赛洛唑啉鼻用喷雾剂</td>
                         <td className="border border-slate-600 text-center">诺通、新康泰克</td>
                         <td className="border border-slate-600 text-center"></td>
@@ -229,7 +216,6 @@ function App() {
                         <td className="border border-slate-600 text-center">Xylometazoline</td>
                     </tr>
                     <tr>
-                        <th className="border border-slate-600 text-center">羟甲唑啉</th>
                         <td className="border border-slate-600 text-center">盐酸羟甲唑啉喷雾剂</td>
                         <td className="border border-slate-600 text-center">达芬霖、仁和、民生</td>
                         <td className="border border-slate-600 text-center"></td>
@@ -237,7 +223,6 @@ function App() {
                         <td className="border border-slate-600 text-center">Oxymetazoline</td>
                     </tr>
                     <tr>
-                        <th className="border border-slate-600 text-center">伪麻黄碱</th>
                         <td className="border border-slate-600 text-center">复方盐酸伪麻黄碱缓释胶囊</td>
                         <td className="border border-slate-600 text-center">新康泰克、白加黑、百服宁</td>
                         <td className="border border-slate-600 text-center">伪麻黄素</td>
