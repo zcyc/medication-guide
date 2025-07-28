@@ -135,8 +135,8 @@ function App() {
                     <thead>
                     <tr>
                         <th className="border border-slate-600 text-center">💊 名称</th>
-                        <th className="border border-slate-600 text-center">🛍 商品名</th>
-                        <th className="border border-slate-600 text-center">® 品牌</th>
+                        <th className="border border-slate-600 text-center">🛍 通用名</th>
+                        <th className="border border-slate-600 text-center">® 商品名</th>
                         <th className="border border-slate-600 text-center">☁️ 别名</th>
                         <th className="border border-slate-600 text-center">🪞 类型</th>
                         <th className="border border-slate-600 text-center">🔤 英文名称</th>
@@ -148,7 +148,7 @@ function App() {
                         <td className="border border-slate-600 text-center">对乙酰氨基酚片</td>
                         <td className="border border-slate-600 text-center">泰诺、散利痛</td>
                         <td className="border border-slate-600 text-center">扑热息痛</td>
-                        <th className="border border-slate-600 text-center" rowSpan="2">化学物质</th>
+                        <th className="border border-slate-600 text-center" rowSpan="2">非甾体抗炎药</th>
                         <td className="border border-slate-600 text-center" rowSpan="2">Acetaminophen、Paracetamol</td>
 
                     </tr>
