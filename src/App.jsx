@@ -70,7 +70,7 @@ function App() {
                     <tr>
                         <td className="border border-slate-600 text-center">盐酸赛洛唑啉喷雾剂</td>
                         <td className="border border-slate-600 text-center">诺通</td>
-                        <th className="border border-slate-600 text-center">化学物质</th>
+                        <th className="border border-slate-600 text-center">血管收缩剂</th>
                     </tr>
                     <tr>
                         <td className="border border-slate-600 text-center">盐酸羟甲唑啉喷雾剂</td>
