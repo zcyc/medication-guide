@@ -452,7 +452,7 @@ function App() {
                        target="_blank">🤔 反馈错误</a>
                 </div>
                 <div>
-                    <p>Copyright © 2022 - All right reserved by <a href="https://github.com/zcyc">Charles</a> & <a
+                    <p>Copyright © 2025 - All right reserved by <a href="https://github.com/zcyc">Charles</a> & <a
                         href="https://github.com/jerryshell">Jerry</a></p>
                 </div>
             </footer>
