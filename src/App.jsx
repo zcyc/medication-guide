@@ -447,9 +447,9 @@ function App() {
                 </div>
                 <div className="grid grid-flow-col gap-4">
                     <a className="link link-hover" href="https://github.com/zcyc/COVID-19-medication-guidelines"
-                       target="_blank">😁 查看源码</a>
+                       target="_blank">查看源码</a>
                     <a className="link link-hover" href="https://github.com/zcyc/COVID-19-medication-guidelines/issues"
-                       target="_blank">🤔 反馈错误</a>
+                       target="_blank">反馈错误</a>
                 </div>
                 <div>
                     <p>Copyright © 2025 - All right reserved by <a href="https://github.com/zcyc">Charles</a> & <a
