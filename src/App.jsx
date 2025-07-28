@@ -86,9 +86,9 @@ function App() {
                 </table>
             </div>
             <div className="overflow-x-auto m-2">
-                <p>*单独使用抗组胺药对单纯的上呼吸道感染（如：感冒）效果不大。</p>
+                <p>*单独使用抗组胺药对单纯的上呼吸道感染（感冒）效果不大。</p>
                 <p>*吃药前仔细看说明书，包括：适应症、禁忌症、不良反应、药物冲突、用法用量、注意事项。</p>
-                <p>*功能相同、成分相同、作用机制相同的药物不能混服。如：感冒药、退烧药、镇痛药。</p>
+                <p>*功能相同、成分相同、作用机制相同的药物不能混服。如：泰诺、布洛芬。</p>
             </div>
             <div className="text-2xl text-center m-4">儿童用药</div>
             <div className="overflow-x-auto m-2">
@@ -214,6 +214,7 @@ function App() {
             </div>
             <div className="overflow-x-auto m-2">
                 <p>*鼻塞流鼻涕建议：低龄儿童使用生理盐水鼻喷剂/生理盐水滴鼻剂/吸鼻器；能配合的儿童使用洗鼻壶和洗鼻盐。</p>
+                <p>*部分药物有更适合儿童的剂型如：布洛芬混悬液。</p>
                 <p>**儿童的剂量和成人不同，记得看说明书。</p>
             </div>
             <div className="text-2xl text-center m-4">成人用药</div>
