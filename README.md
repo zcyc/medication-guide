@@ -1,6 +1,6 @@
 # 家庭用药指南
 
-链接：[med.p6s.fun](https://yao.p6s.fun)
+链接：[med.p6s.fun](https://med.p6s.fun)
 
 ## 数据来源
 
