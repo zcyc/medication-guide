@@ -5,108 +5,82 @@ function App() {
         <div className="App">
             <div className="navbar bg-base-100">
                 <h1 className="text-l">
-                    💊 家庭常备药
+                    💊 家庭用药指南
                 </h1>
             </div>
-            <div className="text-2xl text-center m-4">常备药</div>
+            <div className="text-2xl text-center m-4">药物</div>
             <div className="overflow-x-auto m-2">
                 <table className="table w-full table-compact border-separate border-spacing-0 border border-slate-500">
                     <thead>
                     <tr>
-                        <th className="border border-slate-600 text-center">🛍 通用名</th>
-                        <th className="border border-slate-600 text-center">® 商品名</th>
-                        <th className="border border-slate-600 text-center">☁️ 别名</th>
-                        <th className="border border-slate-600 text-center">🪞 类型</th>
-                        <th className="border border-slate-600 text-center">🔤 英文名称</th>
+                        <th className="border border-slate-600 text-center">通用名称</th>
+                        <th className="border border-slate-600 text-center">商品名称</th>
+                        <th className="border border-slate-600 text-center">类型</th>
                     </tr>
                     </thead>
                     <tbody>
                     <tr>
                         <td className="border border-slate-600 text-center">对乙酰氨基酚片</td>
-                        <td className="border border-slate-600 text-center">泰诺、散利痛</td>
-                        <td className="border border-slate-600 text-center">扑热息痛</td>
+                        <td className="border border-slate-600 text-center">泰诺、散利痛、扑热息痛</td>
                         <th className="border border-slate-600 text-center">非甾体抗炎药</th>
-                        <td className="border border-slate-600 text-center">Acetaminophen、Paracetamol</td>
                     </tr>
                     <tr>
                         <td className="border border-slate-600 text-center">复方氨酚烷胺片</td>
                         <td className="border border-slate-600 text-center">快克、感康、仁和可立克</td>
-                        <td className="border border-slate-600 text-center">感冒药</td>
                         <th className="border border-slate-600 text-center">非甾体抗炎药</th>
-                        <td className="border border-slate-600 text-center">Acetaminophen、Paracetamol</td>
                     </tr>
                     <tr>
-                        <td className="border border-slate-600 text-center">布洛芬缓释胶囊</td>
+                        <td className="border border-slate-600 text-center">布洛芬胶囊</td>
                         <td className="border border-slate-600 text-center">芬必得、美林</td>
-                        <td className="border border-slate-600 text-center">拔怒风</td>
                         <th className="border border-slate-600 text-center">非甾体抗炎药</th>
-                        <td className="border border-slate-600 text-center">Ibuprofen</td>
                     </tr>
                     <tr>
                         <td className="border border-slate-600 text-center">氢溴酸右美沙芬口服溶液</td>
-                        <td className="border border-slate-600 text-center">艾舒、史达功、白云山</td>
-                        <td className="border border-slate-600 text-center">右甲吗喃</td>
+                        <td className="border border-slate-600 text-center">艾舒、史达功</td>
                         <th className="border border-slate-600 text-center">中枢性镇咳药</th>
-                        <td className="border border-slate-600 text-center">Dextromethorphan</td>
 
                     </tr>
                     <tr>
-                        <td className="border border-slate-600 text-center">马来酸氯苯那敏</td>
-                        <td className="border border-slate-600 text-center">维福佳、南国</td>
-                        <td className="border border-slate-600 text-center">扑尔敏、氯菲安明、氯菲尼拉明</td>
+                        <td className="border border-slate-600 text-center">马来酸氯苯那敏片</td>
+                        <td className="border border-slate-600 text-center">扑尔敏</td>
                         <th className="border border-slate-600 text-center">第一代抗组胺药</th>
-                        <td className="border border-slate-600 text-center">Chlorpheniramine</td>
 
                     </tr>
                     <tr>
                         <td className="border border-slate-600 text-center">盐酸苯海拉明片</td>
-                        <td className="border border-slate-600 text-center">帝益、中南、飞赛乐</td>
-                        <td className="border border-slate-600 text-center"></td>
+                        <td className="border border-slate-600 text-center">飞赛乐</td>
                         <th className="border border-slate-600 text-center">第一代抗组胺药</th>
-                        <td className="border border-slate-600 text-center">Diphenhydramine</td>
                     </tr>
                     <tr>
                         <td className="border border-slate-600 text-center">氯雷他定片</td>
-                        <td className="border border-slate-600 text-center">开瑞坦、息斯敏</td>
-                        <td className="border border-slate-600 text-center">开瑞坦、克敏能、佳力天、乐敏锭</td>
+                        <td className="border border-slate-600 text-center">开瑞坦、息斯敏、佳力天</td>
                         <th className="border border-slate-600 text-center">第二代抗组胺药</th>
-                        <td className="border border-slate-600 text-center">Loratadine</td>
                     </tr>
                     <tr>
                         <td className="border border-slate-600 text-center">盐酸西替利嗪片</td>
                         <td className="border border-slate-600 text-center">仙特明、西可韦</td>
-                        <td className="border border-slate-600 text-center">去敏定、司特宁、仙特明、协帝</td>
                         <th className="border border-slate-600 text-center">第二代抗组胺药</th>
-                        <td className="border border-slate-600 text-center">Cetirizine</td>
                     </tr>
                     <tr>
-                        <td className="border border-slate-600 text-center">地氯雷他定干混悬剂</td>
+                        <td className="border border-slate-600 text-center">地氯雷他定片</td>
                         <td className="border border-slate-600 text-center">芙必叮</td>
-                        <td className="border border-slate-600 text-center">先灵葆雅、美时</td>
                         <th className="border border-slate-600 text-center">第三代抗组胺药</th>
-                        <td className="border border-slate-600 text-center">Desloratadine</td>
 
                     </tr>
                     <tr>
-                        <td className="border border-slate-600 text-center">盐酸赛洛唑啉鼻用喷雾剂</td>
-                        <td className="border border-slate-600 text-center">诺通、新康泰克</td>
-                        <td className="border border-slate-600 text-center"></td>
+                        <td className="border border-slate-600 text-center">盐酸赛洛唑啉喷雾剂</td>
+                        <td className="border border-slate-600 text-center">诺通</td>
                         <th className="border border-slate-600 text-center">化学物质</th>
-                        <td className="border border-slate-600 text-center">Xylometazoline</td>
                     </tr>
                     <tr>
                         <td className="border border-slate-600 text-center">盐酸羟甲唑啉喷雾剂</td>
-                        <td className="border border-slate-600 text-center">达芬霖、仁和、民生</td>
-                        <td className="border border-slate-600 text-center"></td>
+                        <td className="border border-slate-600 text-center">达芬霖</td>
                         <th className="border border-slate-600 text-center">第二代抗组胺药</th>
-                        <td className="border border-slate-600 text-center">Oxymetazoline</td>
                     </tr>
                     <tr>
-                        <td className="border border-slate-600 text-center">复方盐酸伪麻黄碱缓释胶囊</td>
+                        <td className="border border-slate-600 text-center">复方盐酸伪麻黄碱胶囊</td>
                         <td className="border border-slate-600 text-center">新康泰克、白加黑、百服宁</td>
-                        <td className="border border-slate-600 text-center">伪麻黄素</td>
                         <th className="border border-slate-600 text-center">拟交感神经药</th>
-                        <td className="border border-slate-600 text-center">Pseudo-ephedrine</td>
                     </tr>
                     </tbody>
                 </table>
